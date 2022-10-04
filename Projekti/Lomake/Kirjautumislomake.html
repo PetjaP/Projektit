@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <title>Kirjautumislomake</title>
     <link rel="stylesheet" href="">
-    <script src="">
+    <script src="kirjautumislomake.js">
     </script>
   </head>
   <body>
     <div class="lomake">
-    <form class="tiedot" action="kiitos.html" method="post" onsubmit="return tarkasta" onreset="return tyhjenna">
+    <form class="tiedot" action="kiitos.html" method="post" onsubmit="return tarkistus (this)" onreset="return tyhjenna (this)">
       <h1>Ota yhteyttä</h1>
       <!--Nimi ja salasana -->
       <table>
@@ -19,7 +19,11 @@
         </tr>
         <tr>
           <td>Anna salasana:</td>
-          <td class="ssana"><input type="text" name="salasana" value=""></td>
+          <td class="ssana"><input type="password" name="salasana" value=""></td>
+        </tr>
+        <tr>
+          <td>Anna salasana uudestaan:</td>
+          <td class="ussana"><input type="password" name="usalasana" value=""></td>
         </tr>
       </table>
     <!--Radionamiskat -->
