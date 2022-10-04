@@ -3,21 +3,21 @@ function tarkistus(form) {
   var enimi = form.nimi.value;
   if (enimi.length < 2) {
     alert("Et antanut nimeäsi!");
-    form.enimi.focus();
+    form.nimi.focus();
     return false;
   }
   //Tarkista salasanan pituus
   var salas = form.salasana.value;
   if (salas.length < 2) {
     alert("Et antanut salasanaa tai salasana on liian lyhyt!");
-    form.salas.focus();
+    form.salasana.focus();
     return false;
   }
   //Tarkista onko salasanat samat
   var salas2 = form.usalasana.value;
   if (salas != salas2) {
     alert("Salasanat eivät täsmää, anna sama salasana!");
-    form.salas.focus();
+    form.usalasana.focus();
     return false;
   }
   //Tarkistetaan Radionamiskat
@@ -36,7 +36,7 @@ function tarkistus(form) {
   var tekstialue = form.yhteys.value;
   if (tekstialue.length < 20) {
     alert("Kirjoita huolesi vähintään 20 merkillä!");
-    form.tekstialue.focus();
+    form.yhteys.focus();
     return false;
   }
 
