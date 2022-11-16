@@ -4,11 +4,11 @@ main
   width: 250px;
   background-color: black;
   padding: 20px;
-}
+  }
 article
 {
   margin: 0 auto;
-  padding: 20px;
+  padding: 90px;
   background-color: #ff8533;
   width: 270px;
 }
@@ -20,7 +20,7 @@ article
   margin-top: 3px;
   font-size: 16px;
   background-color: #66ccff;
-  color: yblack;
+  color: black;
   border-radius: 15px;
 }
 /* Nappien muotoilu kun painettu eikä osunut */
