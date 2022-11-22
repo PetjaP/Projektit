@@ -51,9 +51,18 @@ function tarkistus(form) {
   if (check == false) {
     alert("Et valinnut mitä teet viikonloppuisin, valitse se!");
     return false;
-  } else {
-    alert("Kiitos lomakkeen täytöstä!");
   }
+  //Tarkistetaan alasvetovalikko
+  var liike = document.getElementById("liikkum");
+  var selectedValue = liike.options[liike.selectedIndex].value;
+    if (selectedValue == "0")
+   {
+    alert("Et ole valinnut millä kuljet! Valitse se!");
+    return false;
+  }else {
+      alert("Kiitos lomakkeen täytöstä!")
+  }
+
 }
 
 function tyhjenna(form) {
