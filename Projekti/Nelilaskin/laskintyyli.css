@@ -1,0 +1,41 @@
+/* Laskimen muotoilu */
+#laskin
+{
+  width: 400px;
+  height: 600px;
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: #9494b8;
+  margin: auto;
+
+}
+/* Nappien alueen muotoilu */
+td
+{
+  border: 5px solid black;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  background-color: #007acc;
+}
+/* Taustaväri */
+body
+{
+  background-color: #ff704d;
+}
+/* Tekstin muotoilu */
+p
+{
+  font-size: 30px;
+  font-style: cursive;
+}
+/* Nappien muotoilu */
+button
+{
+  width: 70px;
+  height: 65px;
+  border: 2px solid #d1d1d1;
+  background-color: #ffcc80;
+  font-size: 45px;
+  border-radius: 15px;
+}
