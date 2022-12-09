@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tehtävälista</title>
+    <link rel="stylesheet" href="tehtava.css">
+  </head>
+  <body>
+  <!-- Lisäyslaatikon määrittely -->
+    <div class="container">
+  	  <h1><i><u>Tehtävälista</i></u></h1>
+        <p id="eka">Lisää uusi tehtävä kirjoittamalla se alla olevaan kenttään.</p>
+  			<p id="toka">Kun olet tehnyt tehtävän niin klikkaa sitä jolloin se merkitään tehdyksi.</p>
+  			<p id="kolmas">Klikkaa tehtävän perässä <span style="color: red">X</span> poistaaksesi tehtävän.</p>
+    <!-- Luodaan syöttökenttä ja sille nappi -->
+  		  <input id="lisaa" type="text" placeholder="Kirjoita tähän...">
+  			<button id="nappi">Lisää tehtävä</button>
+    <!-- Lista, johon tehtävät tulevat -->
+  			<ul>
+  			</ul>
+    </div>
+    <!-- Javascript lisätty alas, koska lisättynä <head> alueelle se ei toimi! -->
+    <script type="text/javascript" src="tehtava.js"></script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+/* Taustaväri ja teksin muotoilu */
+body
+{
+	background: #ccffee;
+	text-align: center;
+	font-family: cursive;
+}
+/* Tehtävälista */
+.container
+{
+	margin: 0 auto;
+	width: 800px;
+}
+/* Otsikon muotoilu */
+h1
+{
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+/* Tekstin muotoilu */
+p
+{
+	font-weight: 600;
+}
+/* Eka ohje */
+#eka
+{
+	margin-top: 10px;
+	color: #navy;
+}
+/* Toka ohje */
+#toka
+{
+	color: #navy;
+}
+/* Kolmas ohje */
+#kolmas
+{
+	color: #navy;
+	margin-bottom: 30px;
+}
+/* Lisätyn tekstin asemointi */
+ul
+{
+	text-align: left;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+
+/* Luodun listan muotoilu ja käyttäytyminen */
+li
+{
+	height: 20px;
+	width: 700px;
+	list-style: none;
+	padding: 10px 20px;
+	color: #red;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #ffad99;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+/* Listan muotoilu, kun hiiri viedään päälle */
+li:hover {
+	background: #76CFE0;
+}
+/* X- napin muotoilu */
+li nappula {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #ff3300;
+	font-weight: 800;
+}
+/* Teksti alueen johon tehtävä kirjoitetaan muotoilu */
+input {
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 5px;
+	border: none;
+	width: 400px;
+}
+
+/* Lisätyn tehtävän muotoilu, kun klikattu valmiiksi */
+.done {
+	background: #51DF70 !important;
+	color: #00891E;
+}
+/* POISTOa ei näytetä! */
+.delete {
+	display: none;
+}
